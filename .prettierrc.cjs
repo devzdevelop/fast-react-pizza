@@ -1,7 +1,7 @@
 /** @type {import("prettier").Config} */
 module.exports = {
   plugins: ['prettier-plugin-tailwindcss'],
-  printWidth: 10, // or whatever width you prefer
+  printWidth: 80, // or whatever width you prefer
   singleQuote: true,
   jsxSingleQuote: true,
   trailingComma: 'es5',
